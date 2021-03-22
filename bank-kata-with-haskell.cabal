@@ -4,11 +4,11 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fd33bbfeb5855cfc51170cd1d6645b16101be8629a33000de42e77a761a456ca
+-- hash: a72f03484349f2e1d37296bdb036df4c0b6dfa9f6c5354412cf761c2d66f1ec5
 
 name:           bank-kata-with-haskell
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/bank-kata-with-haskell#readme>
+description:    Please see the README on GitHub at <https://github.com/albertllousas/bank-kata-with-haskell#readme>
 homepage:       https://github.com/githubuser/bank-kata-with-haskell#readme
 bug-reports:    https://github.com/githubuser/bank-kata-with-haskell/issues
 author:         Author name here
@@ -28,7 +28,6 @@ source-repository head
 library
   exposed-modules:
       Account
-      Lib
   other-modules:
       Paths_bank_kata_with_haskell
   hs-source-dirs:
