@@ -1,6 +1,12 @@
 # bank-kata-with-haskell
 
-https://github.com/sandromancuso/Bank-kata
+[Bank kata](https://github.com/sandromancuso/Bank-kata) in haskell.
 
-this is pure domain code, if we need to put it in a real enviroenment we could use ports & adapters 
-and GetAccount -> SaveAccount
+## Description 
+
+Pure functional and domain kata made in haskell.
+
+## Run tests
+```shell
+stack test
+```
