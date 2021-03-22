@@ -27,7 +27,7 @@ date || credit || debit || balance
 
 This is a pure domain kata, it means that any architectural pattern has been used, the solution has been made focussing
 in the domain. If we would like to use it in a real app, we would need to apply a layered architecture, ports-and-adapters 
-or any other on top of the current solution to do a proper separation of concerns.
+or any other on top of the current solution to have a proper separation of concerns.
 
 ## Run tests
 ```shell
