@@ -41,7 +41,7 @@ spec = do
     it "should fail withdrawing when there is not enough founds" $ do
       withdraw 200.00 time account `shouldBe` Left NotEnoughFounds
 
-  describe "bank statement" $ do
+  describe "Bank Statement" $ do
 
     it "should generate the bank statement for an account" $ do
       let account = Account [Credit 100.00 time, Debit 50.00 time]

@@ -21,7 +21,7 @@ date || credit || debit || balance
 
 [Here](/test/AccountSpec.hs), the unit tests.
 
-[Here](/src/Account.hs), the prod solution.
+[Here](/src/Account.hs), the solution.
 
 ### Design notes
 
@@ -48,7 +48,7 @@ Account
     should withdraw a valid amount
     should fail withdrawing a negative amount
     should fail withdrawing when there is not enough founds
-  bank statement
+  Bank Statement
     should generate the bank statement for an account
 
 Finished in 0.0025 seconds

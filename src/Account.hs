@@ -32,10 +32,8 @@ checkAmount amount = if amount < 0
 balance :: [AccountEntry] -> Amount
 balance entries = foldl (+) 0 amounts
     where amounts = fmap getAmount entries
-
-getAmount :: AccountEntry -> Amount
-getAmount (Debit amount _) = - amount
-getAmount (Credit amount _) = amount
+          getAmount (Debit amount _) = - amount
+          getAmount (Credit amount _) = amount
 
 bankStatement :: Account -> String
 bankStatement (Account entries) = mconcat (headers : statements (reverse entries))
