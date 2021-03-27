@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -fwarn-incomplete-patterns #-}
+{-# OPTIONS_GHC -Werror=incomplete-patterns #-}
 module Account where
 
 import Data.Time
